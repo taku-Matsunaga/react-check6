@@ -8,7 +8,7 @@ import { Router } from './router/Router';
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Router />
       </BrowserRouter>
     </ChakraProvider>
