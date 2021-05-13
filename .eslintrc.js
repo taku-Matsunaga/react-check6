@@ -25,6 +25,7 @@ module.exports = {
         "react/display-name": "off",
         "react/prop-types": "off",
         "no-unused-vars": "off",
-        "react/jsx-key": "off"
+        "react/jsx-key": "off",
+        "no-constant-condition": "off"
     }
 };
